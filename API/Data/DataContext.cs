@@ -13,6 +13,6 @@ namespace API.Data
         {
         }
 
-        public DbSet<AppUser> Users { get; set; } // dbSet is an array of objects of type AppUser
+        public DbSet<AppUser> Users { get; set; } // dbSet is an array of objects of type AppUser now users become array of app users
     }
 }
